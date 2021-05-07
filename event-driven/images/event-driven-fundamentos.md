@@ -41,7 +41,8 @@
 
 
 ### A origem dos eventos podem ser de diferentes _*fontes*_.
-![<--](http://localhost:8090/event-driven/images/fontes.png)
+![<--](./fontes.png)
+
 
 [01] - Origem de eventos
 
@@ -57,12 +58,15 @@
 
 1. **Sistema rígido e interações complexas**
    1. Alto acoplamento
+      1. Aplicações monolíticas 
    2. Baixa granularidade
    3. Processos difícies de serem modificados
+      1. Custa caro manter 
 2. **Dados desatualizados**
    1. Pode ser consequência de uma replicação de informações em vários sistemas
+   
 3. **Respostas lentas**
-   1.  Pode ser consequência do uso de uma operação orientada por lote
+   1.  Pode ser consequência do uso de uma operação orientada por lote que demanda muito tempo
    
 
 ## 3 (Três) etapas que facilitam as operações de uma empresa orientadas a evenots: 
@@ -73,6 +77,8 @@
    1. Ouvir
    2. Agir
    3. Reagir
+   4. Escalar
+   5. Performar
 
 
 2. **Modernizar sua plataforma**
@@ -85,14 +91,10 @@
       2. Clientes  
       3. Parceiros
 
-<br>
-<br>
-<br>
-
-![<--](http://localhost:8090/event-driven/images/enterprise.png)
-[02] - 3 etapas para se tornar uma empresa orientada a eventos 
-
-<br>
+<br><br><br>
+![<--](./enterprise.png)
+[02] - 3 (Três) etapas para se tornar uma empresa orientada a eventos 
+<br><br><br>
 
 
 <a name="ancora"></a>
@@ -112,17 +114,17 @@
 
 ***SÍNCRONA***
 
-![<--](http://localhost:8090/event-driven/images/desenv.png)
+![<--](./desenv.png)
 
 <br>
 
 ***ASSÍNCRONA***
 
-![<--](http://localhost:8090/event-driven/images/desenv.png)
+![<--](./desenv.png)
 
 ***HÍBRIDA***
 
-![<--](http://localhost:8090/event-driven/images/desenv.png)
+![<--](./desenv.png)
 
 [Topo](#ancora)<a id="ancora1"></a>
 
@@ -131,7 +133,7 @@
 <a id="ancora2"></a>
 
 # Estrutura de um Evento?
-![<--](http://localhost:8090/event-driven/images/desenv.png)
+![<--](./desenv.png)
   
 [Topo](#ancora)<a id="ancora2"></a>
 
@@ -151,7 +153,7 @@
 
 <br>
   
-![<--](http://localhost:8090/event-driven/images/pub_sub0.png)
+![<--](./pub_sub0.png)
 
 [03] - Emissor transmite ou empurra um evento a todos os receptores interessados
 
@@ -166,7 +168,7 @@
 
 
 2. *Comunicam-se por meio de um **barramento***
-![<--](http://localhost:8090/event-driven/images/pub_sub1.png)
+![<--](./pub_sub1.png)
 
 [04] - Dois consumidores de um tópico de eventos, utilizam o modelo **_push/pull_** (empurrar/puxar).
 
@@ -184,13 +186,13 @@
 
 1. **Transformações** dos tópicos de eventos, por meio de um pipeline  de serviços.
 
-![<--](http://localhost:8090/event-driven/images/pipeline.png)
+![<--](./pipeline.png)
 
 [05] - Os estágios intermediários trabalham com o padrão publishe/subscriber
 
 2. **Agregações** de tópicos de eventos
    
-![<--](http://localhost:8090/event-driven/images/agregacoes.png)
+![<--](./agregacoes.png)
 
 [06] - Processamento de tópicos ou fluxos de eventos e sua posterior agregação.
 
@@ -204,11 +206,11 @@
 <a id="ancora4"></a>
 
 ## Abordagem Mensagens e Eventos
-![<--](http://localhost:8090/event-driven/images/desenv.png)
+![<--](./desenv.png)
   
 [Topo](#ancora)<a id="ancora4"></a>
 
-
+<br><br><br><br>
 
 
 ### Links de referência

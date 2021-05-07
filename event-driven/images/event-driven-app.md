@@ -1,4 +1,3 @@
-<!--mdMenu-->
 # Aplicação Empréstimo 
 ---
 
@@ -16,7 +15,7 @@
 <br>
 <br>
 
-## Componentes da Solução  
+## Componentes da Solução 
 
 
 [01] - Componentes da Solução
@@ -29,7 +28,7 @@
 <br>
 <br>
 
-![<--](http://localhost:8090/event-driven/app/images/produtor.png)
+![<--](./app/produtor.png)
 [02] - Microsserviço LoanSource
 
 <br>
@@ -38,9 +37,10 @@
 ## Microsserviço Verificador de Empréstimo
 
 <br>
+<br>
 
-![<--](http://localhost:8090/event-driven-app/app/images/consumidor.png)
-[02] - Microsserviço LoanCheck
+![<--](./app/consumidor.png)
+[03] - Microsserviço LoanCheck
 
 <br>
 
